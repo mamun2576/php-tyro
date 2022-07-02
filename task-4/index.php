@@ -39,11 +39,6 @@ $students = [
 ];
 
 
-// foreach($students as $student) {
-// 	if($student['address']['district'] == 'Dhaka') {
-// 		echo $student['name'] . " lives in " . $student['address']['district']."<br/>";
-// 	}
-// }
 
 foreach ($students as $student) {
     foreach ($student as $key => $value) {
